@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>SQL代码显示测试</title>
+    <link href="/2022/01/05/SQL-CODE-BLOCK/"/>
+    <url>/2022/01/05/SQL-CODE-BLOCK/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight pgsql"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></div></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">COLUMN</span> <span class="hljs-keyword">TABLE</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot; (<br>&quot;PRODUCT_CODE&quot; NVARCHAR(<span class="hljs-number">32</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span> ,<br> &quot;MATERIAL_CODE&quot; NVARCHAR(<span class="hljs-number">64</span>),<br> &quot;CREATE_USER&quot; NVARCHAR(<span class="hljs-number">11</span>),<br> &quot;REMARK&quot; NVARCHAR(<span class="hljs-number">64</span>),<br> &quot;SOURCE_SYS&quot; <span class="hljs-type">INTEGER</span> CS_INT <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">100</span>,<br> &quot;LOAD_TIME&quot; LONGDATE CS_LONGDATE <span class="hljs-keyword">DEFAULT</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span>,<br> <span class="hljs-keyword">PRIMARY KEY</span> (&quot;MATERIAL_CODE&quot;,<br> &quot;SOURCE_SYS&quot;)) UNLOAD PRIORITY <span class="hljs-number">5</span> AUTO MERGE;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">TABLE</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;产品主数据&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;PRODUCT_CODE&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;货号&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;MATERIAL_CODE&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;料号&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;CREATE_USER&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;创建人工号&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;REMARK&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;备注&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;SOURCE_SYS&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;来源系统&#x27;</span>;<br><span class="hljs-keyword">COMMENT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">COLUMN</span> &quot;HANA_TRAIN001&quot;.&quot;T_TEST_PRODUCT_9143686&quot;.&quot;LOAD_TIME&quot; <span class="hljs-keyword">is</span> <span class="hljs-string">&#x27;加载时间&#x27;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>代码</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>常用软件合辑</title>
     <link href="/2022/01/05/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%90%88%E8%BE%91/"/>
     <url>/2022/01/05/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%90%88%E8%BE%91/</url>
