@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>插入音频和视频测试</title>
+    <link href="/2022/01/06/%E6%8F%92%E5%85%A5%E9%9F%B3%E9%A2%91%E5%92%8C%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
+    <url>/2022/01/06/%E6%8F%92%E5%85%A5%E9%9F%B3%E9%A2%91%E5%92%8C%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</url>
+    
+    <content type="html"><![CDATA[<p>以下是一个视频插入测试</p><iframe src="//player.bilibili.com/player.html?aid=82465831&bvid=BV1uJ4115751&cid=141097080&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>以下是一个音频插入测试,待找到MP3文件再说，妈的现在连个MP3文件都不能免费下载到。<br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="音频地址"><br></audio></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>SQL代码显示测试</title>
     <link href="/2022/01/05/SQL-CODE-BLOCK/"/>
     <url>/2022/01/05/SQL-CODE-BLOCK/</url>
